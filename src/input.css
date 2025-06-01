@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+    body { @apply bg-amber-100}
+}
+
+@layer components {
+ .header-link {
+    @apply border-t py-3 text-2xl font-bold cursor-pointer hover:text-gray-600 transition-colors duration-200;
+}
+
+
+
+}
